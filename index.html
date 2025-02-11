@@ -4,13 +4,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
+  <title>Railway Claim Tribunal</title>
   <link rel="stylesheet" href="./css/bootstrap.min.css" />
   <link rel="stylesheet" href="./css/bootstrap-icons.min.css" />
   <link rel="stylesheet" href="./css/all.min.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/font_family_Noto_sans.css" />
-  <link rel="stylesheet" href="./css/icon_arrow_right.css" />
 </head>
 
 <body>
@@ -22,7 +21,7 @@
         <header class="top-area-contents">
           <div class="col col-lg-4 top-left-details">
             <img src="./assets/Group 4085@2x.png" alt="Image_1" />
-            <a href="/" class="mb-lg-0 me-lg-auto link-body-emphasis">
+            <a href="#" class="mb-lg-0 me-lg-auto link-body-emphasis">
               <h4 class="fw-bold">RAILWAY CLAIM TRIBUNAL
               </h4>
               <h6>
@@ -73,9 +72,17 @@
               <li class="nav-item">
                 <a href="#" class="nav-link">About Us</a>
               </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Services</a>
-              </li>
+              <div class="dropdown nav-item">
+                <a class="nav-link dropdown-link">
+                  Services
+                </a>
+                <i class="fa-solid fa-caret-down"></i>
+                <ul class="dropdown-menu custom-dropdown">
+                  <li><a class="dropdown-item">Action</a></li>
+                  <li><a class="dropdown-item">Another action</a></li>
+                  <li><a class="dropdown-item">Something else here</a></li>
+                </ul>
+              </div>
               <li class="nav-item">
                 <a href="#" class="nav-link">Causelist</a>
               </li>
@@ -97,7 +104,7 @@
             </ul>
             <ul class="nav">
               <li class="nav-item">
-                <i class="fa-solid fa-magnifying-glass me-2 home nav-link me-3 fs-2"></i>
+                <i class="fa-solid fa-magnifying-glass home nav-link search-btn"></i>
               </li>
             </ul>
           </div>
@@ -121,37 +128,37 @@
               </div>
               <ul>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">RCT ACT</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">RCT Procedure Rules 1989</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">Forms</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">Location Of Benches</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">Jurisdiction</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">Bench wise list of Hon'ble Chairman and Members of RCT</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
@@ -167,19 +174,19 @@
               <div class="sidebar-links">
                 <ul>
                   <li class="nav-item">
-                    <a href="/" class="animated-link">
+                    <a href="#" class="animated-link">
                       <span class="text">Supreme Court</span>
                       <i class="bi bi-chevron-right me-2 arrow"></i>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="/" class="animated-link">
+                    <a href="#" class="animated-link">
                       <span class="text">Delhi High Court</span>
                       <i class="bi bi-chevron-right me-2 arrow"></i>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="/" class="animated-link">
+                    <a href="#" class="animated-link">
                       <span class="text">List of High Court</span>
                       <i class="bi bi-chevron-right me-2 arrow"></i>
                     </a>
@@ -191,7 +198,7 @@
           <!-- -------  ------- -->
         </div>
 
-        <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-6 media-middle">
           <!-- ------- CENTER_AREA ------- -->
           <div class="carousel-slider">
             <div class="c-slider">
@@ -214,7 +221,7 @@
 
           <div class="mid-section">
             <div class="whats-new-title">
-              <h4>What's New</h4>
+              <h4 class="blinking-text">What's New</h4>
               <span>
                 <i id="marquee_btn" onclick=myFunction() class="fa-solid fa-play"></i>
               </span>
@@ -233,19 +240,19 @@
               <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card_sidebar">
                   <img src="./assets/001-clipboard.png" alt="" />
-                  Cause List
+                <span>Cause List</span>
                 </div>
               </div>
               <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card_sidebar">
                   <img src="./assets/002-law.png" alt="" />
-                  Case Search
+                <span>Case Search</span>
                 </div>
               </div>
               <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card_sidebar">
                   <img src="./assets/003-stamp.png" alt="" />
-                  Case Status
+                <span>Case Status</span>
                 </div>
               </div>
             </div>
@@ -253,20 +260,19 @@
               <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card_sidebar">
                   <img src="./assets/004-auction.png" alt="" />
-                  Daily Orders
+                <span>Daily Orders</span>
                 </div>
               </div>
               <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card_sidebar">
                   <img src="./assets/005-right-to-objection.png" alt="" />
-                  Case Under <br />
-                  Objection
+                  <span>Case Under Objection</span>
                 </div>
               </div>
               <div class="col-sm-12 col-md-4 col-lg-4">
                 <div class="card_sidebar">
                   <img src="./assets/006-regulation.png" alt="" />
-                  Final Orders / Judgements
+                  <span>Final Orders / Judgements</span>
                 </div>
               </div>
             </div>
@@ -276,44 +282,44 @@
 
         <div class="col-12 col-sm-12 col-md-12 col-lg-3">
           <!-- ------- SIDEBAR ------- -->
-          <div class="sidebar">
+          <div class="sidebar media-sidebar-bottom">
             <div class="sidebar-links">
               <div class="sidebar-title">
                 <h4 class="hdtxt">Useful Links</h4>
               </div>
               <ul>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">Notices</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">Policies</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">Circular</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">Tender</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">Policies Uploaded By RCT Branch</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a href="/" class="animated-link">
+                  <a href="#" class="animated-link">
                     <span class="text">Circulars Uploaded By RCT Branch</span>
                     <i class="bi bi-chevron-right me-2 arrow"></i>
                   </a>
@@ -328,19 +334,19 @@
               <div class="sidebar-links">
                 <ul>
                   <li class="nav-item">
-                    <a href="/" class="animated-link">
+                    <a href="#" class="animated-link">
                       <span class="text">FAQs</span>
                       <i class="bi bi-chevron-right me-2 arrow"></i>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="/" class="animated-link">
+                    <a href="#" class="animated-link">
                       <span class="text">About Goods Claims</span>
                       <i class="bi bi-chevron-right me-2 arrow"></i>
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a href="/" class="animated-link">
+                    <a href="#" class="animated-link">
                       <span class="text">About Passenger Claims</span>
                       <i class="bi bi-chevron-right me-2 arrow"></i>
                     </a>
@@ -410,7 +416,7 @@
           </div>
           <div>
             <p>Number of Visitors : 5966557</p>
-            <p>Site Updated : 10, Feb, 2025</p>
+            <p>Site Updated : 2, Feb, 2025</p>
           </div>
         </div>
       </div>
