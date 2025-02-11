@@ -155,6 +155,19 @@ li {
   color: white;
 }
 
+.dropdown:hover i {
+  visibility:hidden;
+}
+
+/* .dropdown::after {
+  content: "\f0d7";
+  font-family: 'Font Awesome 6 Free';
+}
+.dropdown:hover::after {
+  content: "\f0d8";
+  font-family: 'Font Awesome 6 Free';
+} */
+
 .dropdown-link {
   color: white !important; 
   text-decoration: none;
@@ -491,6 +504,17 @@ li {
 
 .container_footer div p {
   margin: 0;
+}
+
+.back-to-top{
+  position: fixed;
+  right: 45px;
+  bottom: 70px;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: rgba(255, 229, 229, 1);
+  display: none;
+  cursor: pointer;
 }
 
 @media (min-width: 990px) and (max-width: 1380px) {
